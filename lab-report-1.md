@@ -79,7 +79,7 @@ With the links fully navigated, you can now put in your course=specific username
 
 Everything should now be properly setup! Now you can open a new terminal on VS Code using **Ctrl + \`**. A terminal should appear on the bottom of the screen with the word "bash" on the top right. Type in `ssh <username>@ieng6.ucsd.edu`and press **Enter**. It should now ask for your password, so type in the password you recently set for your account and press **Enter**.
 
-
+![Image](sshfirst.jpg)
 
 > The terminal will not show your password being typed in, but don't worry! This is normal and you may type it as normal.
 
@@ -87,7 +87,7 @@ Everything should now be properly setup! Now you can open a new terminal on VS C
 
 If everything went correctly, a large body of text should show up asking if you trust the server. Type in "yes" and press **Enter** one last time and you should be fully in the server now! 
 
-
+![Image](sshfinal.jpg)
 
 > Your terminal should look something like this now after logging in.
 
