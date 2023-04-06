@@ -45,7 +45,7 @@ You will now be setting Git Bash as your default terminal on VS Code now that ev
 After that is finished, your coding environment is now fully ready!
 ___
 
-## 2. Logging into the Remote Servers
+## 2. Accessing the Remote Servers
 
 With the setup ready, it's now time to login to the remote servers. 
 
@@ -53,20 +53,46 @@ With the setup ready, it's now time to login to the remote servers.
 
 You will be logging into the remote server using your course-specific account on ieng6. To access your username and password, go to [this site](https://sdacs.ucsd.edu/~icc/index.php) and type in your Tritonlink username and PID into the respective boxes. 
 
-
+![Image](accountlookupinitial.jpg)
 
 Once you have logged in, a new page should be shown with any additional course-specific accounts. Press the one that begins with "cs15l".
 
-
+![Image](accountlookupsecond.jpg)
 
 > The rest of the username after the "cs15l" will be your quarter season as well as your actual specific account name, which is why it will look different from mine.
 
 On the new page that is opened, press the **Global Password Change Tool** link to begin setting your password. 
 
-
+![Image](accountpassresetinitial.jpg)
 
 After that, press **Proceed to the Password Change Tool**.
 
+![Image](accountpassresetsecond.jpg)
+
+And finally, press **I want to reset my course-specific account password.** 
+
+![Image](accountpassresetfinal.jpg)
+
+With the links fully navigated, you can now put in your course=specific username, login, and set your new password to use with the remote server.
+
+### Logging into the Servers
+
+Everything should now be properly setup! Now you can open a new terminal on VS Code using **Ctrl + \`**. A terminal should appear on the bottom of the screen with the word "bash" on the top right. Type in `ssh <username>@ieng6.ucsd.edu`and press **Enter**. It should now ask for your password, so type in the password you recently set for your account and press **Enter**.
 
 
-And finally, 
+
+> The terminal will not show your password being typed in, but don't worry! This is normal and you may type it as normal.
+
+> For whatever reason, if the ssh is not accepting your password, it is probably an issue with the student account. If you really want to experiment with the remote server but your account is not working, you may also use `ssh <tritonlink username>@ieng6.ucsd.edu` with your tritonlink password.
+
+If everything went correctly, a large body of text should show up asking if you trust the server. Type in "yes" and press **Enter** one last time and you should be fully in the server now! 
+
+
+
+> Your terminal should look something like this now after logging in.
+
+Now that you've logged in, you can now mess around with some terminal commands!
+___
+
+## 3. Experimenting with the Terminal
+
