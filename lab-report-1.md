@@ -10,6 +10,17 @@ To download the application onto your computer, search "VS Code" on your browser
 
 ![Image](vscodedl.jpg)
 
-> If you are using an operating system other than Windows, you can press the box to the right of the **Download for Windows** button with the down arrow to choose your specific operating system
+> If you are using an operating system other than Windows, you can press the box to the right of the **Download for Windows** button with the down arrow to choose your specific operating system.
 
 After clicking the download button, your browser should begin downloading the installer. With the installer finished, configure the installation settings to your preferences. Once the process is finished, the home page of VS Code should be displayed similar to the image below.
+
+![Image](vscodehomepage.jpg)
+
+> The picture I included above may look different because of the themes I set and the features I have installed, but the general appearance should be very similar.
+
+Congratulations! You are almost halfway done setting up the environment. The next step now is to install Git.
+___
+
+### Installing Git
+With the code editor fully installed, you now have to download an additional software for your computer called Git. To get the software, you may search "Git download" on your browser and press the first link, or press [this link](https://git-scm.com/downloads). The link should take you to the website that looks similar to the image below.
+
