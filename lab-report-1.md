@@ -24,3 +24,8 @@ ___
 ### Installing Git
 With the code editor fully installed, you now have to download an additional software for your computer called Git. To get the software, you may search "Git download" on your browser and press the first link, or press [this link](https://git-scm.com/downloads). The link should take you to the website that looks similar to the image below.
 
+[Image](gitdl.jpg)
+
+Once on this page, navigate to your operating system and select the installation that matches your preferences and computer. Go through the process while selecting your preferences, and you should be done installing Git. We're almost done setting up now!
+___
+### Setting Git Bash as your Default Terminal
