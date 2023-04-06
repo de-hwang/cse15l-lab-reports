@@ -23,7 +23,6 @@ After clicking the download button, your browser should begin downloading the in
 
 Congratulations! You are almost halfway done setting up the environment. The next step now is to install Git.
 ___
-
 ### Installing Git
 
 With the code editor fully installed, you now have to download an additional software for your computer called Git. To get the software, you may search "Git download" on your browser and press the first link, or press [this link](https://git-scm.com/downloads). The link should take you to the website that looks similar to the image below.
@@ -44,7 +43,6 @@ You will now be setting Git Bash as your default terminal on VS Code now that ev
 
 After that is finished, your coding environment is now fully ready!
 ___
-
 ## 2. Accessing the Remote Servers
 
 With the setup ready, it's now time to login to the remote servers. 
@@ -74,7 +72,7 @@ And finally, press **I want to reset my course-specific account password.**
 ![Image](accountpassresetfinal.jpg)
 
 With the links fully navigated, you can now put in your course=specific username, login, and set your new password to use with the remote server.
-
+___
 ### Logging into the Servers
 
 Everything should now be properly setup! Now you can open a new terminal on VS Code using **Ctrl + \`**. A terminal should appear on the bottom of the screen with the word "bash" on the top right. Type in `ssh <username>@ieng6.ucsd.edu`and press **Enter**. It should now ask for your password, so type in the password you recently set for your account and press **Enter**.
