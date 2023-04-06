@@ -37,3 +37,36 @@ ___
 > This step is not necessarily required, but the rest of this tutorial will follow instructions under the assumption that this step has been completed.
 
 You will now be setting Git Bash as your default terminal on VS Code now that everything has been installed. To do this, go back to VS Code and press **Ctrl + Shift + P** to open a search bar. In that search bar, type in "Select Default Profile" and select "Git Bash". The process should look like the images below. 
+
+![Image](gitdefprof.jpg)
+
+![Image](setgitdefprof.jpg)
+
+After that is finished, your coding environment is now fully ready!
+___
+
+## 2. Logging into the Remote Servers
+
+With the setup ready, it's now time to login to the remote servers. 
+
+### Getting your Course-specific Account
+
+You will be logging into the remote server using your course-specific account on ieng6. To access your username and password, go to [this site](https://sdacs.ucsd.edu/~icc/index.php) and type in your Tritonlink username and PID into the respective boxes. 
+
+
+
+Once you have logged in, a new page should be shown with any additional course-specific accounts. Press the one that begins with "cs15l".
+
+
+
+> The rest of the username after the "cs15l" will be your quarter season as well as your actual specific account name, which is why it will look different from mine.
+
+On the new page that is opened, press the **Global Password Change Tool** link to begin setting your password. 
+
+
+
+After that, press **Proceed to the Password Change Tool**.
+
+
+
+And finally, 
