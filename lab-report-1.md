@@ -1,7 +1,7 @@
 # Lab Report 1 - Remote Access and FileSystem
 
 Hello to anybody visiting this site! This is a general tutorial on the first steps for current, and future, students in the CSE 15L course offered at UCSD. In this guide, I will be going over the basics on setting up your coding environment to access your course-specific account on the ieng6 computers.  
-
+___
 ## 1. Setting up your code environment
 
 The first step that must be completed in order to access the servers is to fully setup your code environment. For this tutorial, I will be using Windows with Visual Studio Code as my editor and demonstrating how to setup the application, but most other editors should support these steps in someway as well.  
@@ -89,8 +89,24 @@ If everything went correctly, a large body of text should show up asking if you 
 
 > Your terminal should look something like this now after logging in.
 
-Now that you've logged in, you can now mess around with some terminal commands!
+You're now done ssh-ing into the remote computer!
 ___
 
 ## 3. Experimenting with the Terminal
 
+Now that you've logged into the server, you can mess around with some commands! Below is a list of commands that you can experiment with. Make sure that these commands do not cause any large or confusing errors.
+
+* `cd~`
+* `cd`
+* `cd ..`
+* `ls -lat`
+* `ls -a`
+* `pwd`
+
+> If you want to check if something worked properly, then the command should either print something to the terminal or do nothing at all. It's okay if nothing seems to happen after using a command, sometimes that's a good thing.
+___
+### Logging Out
+
+When you are finished using the remote computer, you may either use **Ctrl + d** or type `exit` to log out.
+
+**Thank you for reading my tutorial on ssh-ing for the CSE 15L course offered at UCSD! I hope the instructions I provided were clear enough for anyone to follow along without issue. Good luck to anyone taking this course and have fun!**
