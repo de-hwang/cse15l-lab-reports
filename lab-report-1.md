@@ -122,4 +122,4 @@ ___
 
 When you are finished using the remote computer, you may either use **Ctrl + d** or type `exit` to log out.
 
-**Thank you for reading my tutorial on ssh-ing for the CSE 15L course offered at UCSD! I hope the instructions I provided were clear enough for anyone to follow along without issue. Good luck to anyone taking this course and have fun!**
+**Thanks for reading my tutorial on ssh-ing for the CSE 15L course offered at UCSD! I hope the instructions I provided were clear enough for anyone to follow along without issue. Good luck to anyone taking this course and have fun!**
