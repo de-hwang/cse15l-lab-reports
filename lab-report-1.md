@@ -24,7 +24,9 @@ After clicking the download button, your browser should begin downloading the in
 > The picture I included above may look different because of the themes I set and the features I have installed, but the general appearance should be very similar.
 
 Congratulations! You are almost halfway done setting up the environment. The next step now is to install Git.
+
 ___
+
 ### Installing Git
 
 With the code editor fully installed, you now have to download an additional software for your computer called Git. To get the software, you may search "Git download" on your browser and press the first link, or press [this link](https://git-scm.com/downloads). The link should take you to the website that looks similar to the image below.
@@ -32,7 +34,9 @@ With the code editor fully installed, you now have to download an additional sof
 ![Image](lab-report-1-imgs/gitdl.jpg)
 
 Once on this page, navigate to your operating system and select the installation that matches your preferences and computer. Go through the process while selecting your preferences, and you should be done installing Git. We're almost done setting up now!
+
 ___
+
 ### Setting Git Bash as your Default Terminal
 
 > This step is not necessarily required, but the rest of this tutorial will follow instructions under the assumption that this step has been completed.
@@ -44,7 +48,9 @@ You will now be setting Git Bash as your default terminal on VS Code now that ev
 ![Image](lab-report-1-imgs/setgitdefprof.jpg)
 
 After that is finished, your coding environment is now fully ready!
+
 ___
+
 ## 2. Accessing the Remote Servers
 
 With the setup ready, it's now time to login to the remote servers. 
@@ -74,7 +80,9 @@ And finally, press **I want to reset my course-specific account password.**
 ![Image](lab-report-1-imgs/accountpassresetfinal.jpg)
 
 With the links fully navigated, you can now put in your course=specific username, login, and set your new password to use with the remote server.
+
 ___
+
 ### Logging into the Servers
 
 Everything should now be properly setup! Now you can open a new terminal on VS Code using **Ctrl + \`**. A terminal should appear on the bottom of the screen with the word "bash" on the top right. Type in `ssh <username>@ieng6.ucsd.edu`and press **Enter**. It should now ask for your password, so type in the password you recently set for your account and press **Enter**.
@@ -92,6 +100,7 @@ If everything went correctly, a large body of text should show up asking if you 
 > Your terminal should look something like this now after logging in.
 
 You're now done ssh-ing into the remote computer!
+
 ___
 
 ## 3. Experimenting with the Terminal
@@ -106,7 +115,9 @@ Now that you've logged into the server, you can mess around with some commands! 
 * `pwd`
 
 > If you want to check if something worked properly, then the command should either print something to the terminal or do nothing at all. It's okay if nothing seems to happen after using a command, sometimes that's a good thing.
+
 ___
+
 ### Logging Out
 
 When you are finished using the remote computer, you may either use **Ctrl + d** or type `exit` to log out.
