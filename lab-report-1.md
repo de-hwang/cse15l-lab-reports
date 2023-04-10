@@ -1,7 +1,7 @@
 # Lab Report 1 - Remote Access and FileSystem
 
 Hello to anybody visiting this site! This is a general tutorial on the first steps for current, and future, students in the CSE 15L course offered at UCSD. In this guide, I will be going over the basics on setting up your coding environment to access your course-specific account on the ieng6 computers.  
-___
+***
 ## 1. Setting up your code environment
 
 The first step that must be completed in order to access the servers is to fully setup your code environment. For this tutorial, I will be using Windows with Visual Studio Code as my editor and demonstrating how to setup the application, but most other editors should support these steps in someway as well.  
