@@ -124,6 +124,7 @@ Now that you've logged into the server, you can mess around with some commands! 
 * `pwd`
   * This command prints the current working directory to the terminal
 
+![Image](lab-report-1-imgs/terminalcommands.jpg)
 > If you want to check if something worked properly, then the command should either print something to the terminal or do nothing at all. It's okay if nothing seems to happen after using a command, sometimes that's a good thing.
 
 ___
