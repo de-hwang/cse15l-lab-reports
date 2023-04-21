@@ -109,12 +109,20 @@ ___
 
 Now that you've logged into the server, you can mess around with some commands! Below is a list of commands that you can experiment with. Make sure that these commands do not cause any large or confusing errors.
 
-* `cd~`
-* `cd`
+* `cd ~`
+  * This command changes your current directory to your home directory
+* `cd <folder>`
+  * This command changes your current directory to the folder specified
 * `cd ..`
-* `ls -lat`
+  * This command changes your current directory to the parent directory 
+* `ls`
+  * This command lists all visible files and folders in your current directory
 * `ls -a`
+  * This command lists all visible, and hidden, files and folders in your current directory
+* `ls -lat`
+  * This command lists all visible, and hidden, files and folders in your current directory as symbolic links in order from most recently updated to least recently updated
 * `pwd`
+  * This command prints the current working directory to the terminal
 
 > If you want to check if something worked properly, then the command should either print something to the terminal or do nothing at all. It's okay if nothing seems to happen after using a command, sometimes that's a good thing.
 
