@@ -79,3 +79,9 @@ static int[] reversed(int[] arr) {
 ```
 
 The issue with the original code was that it would update the original array instead of the new array, causing the array to lose the latter half of its elements. Because the code reflects the array, the second half would not be able to be a reflection of the first half because the first half would already have been changed. To fix this, we update the new array so none of the original values are changed, then return the new array.
+
+___
+
+## Part 3
+
+Something new I learned from week 2 lab was how to utilize a local server with java. It was my first time launching a server, so getting a brief understanding of using URI to run programs using queries and paths was very interesting. Also, using a remote computer to run multiple web servers with their own data was something that I did not know was possible.
