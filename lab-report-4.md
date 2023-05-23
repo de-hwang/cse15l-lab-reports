@@ -2,7 +2,7 @@
 
 ## Step 4
 
-IMAGE
+![Image](lab-report-4-imgs/step4.jpg)
 
 Keys pressed: `ssh cs15lsp23ro@ieng6.ucsd.edu <enter>`
 
@@ -12,17 +12,17 @@ ___
 
 ## Step 5
 
-IMAGE
+![Image](lab-report-4-imgs/step5.jpg)
 
 Keys pressed: `git clone <Ctrl + v> <enter>`
 
-I copied the link to my repository and pasted the URL in my terminal to make a clone of the fork.
+I copied the ssh key to my repository and pasted the key in my terminal to make a clone of the fork.
 
 ___
 
 ## Step 6
 
-IMAGE
+![Image](lab-report-4-imgs/step6.jpg)
 
 Keys pressed: `cd lab7 <enter>`, `ls <enter>`, `<Ctrl + v> <enter>`, `<Ctrl + v> ListExamplesTests <enter>`
 
@@ -32,17 +32,21 @@ ___
 
 ## Step 7
 
-IMAGE
+![Image](lab-report-4-imgs/step7p1.jpg)
+
+![Image](lab-report-4-imgs/step7p2.jpg)
+
+![Image](lab-report-4-imgs/step7p3.jpg)
 
 Keys pressed: `vim ListExamples.java <enter>`, `/index1 <enter>`, `n n n n`, `l l l l l`, `r`, `2 <enter>`, `:wq`
 
-To edit the file, I opened **ListExamples.java** on vim. Then, to search for the error, I searched for the phrase "index1" and cycled through the found instances until I landed on the error. From there, I moved to the end of the phrase and replaced the "1" to a "2", therefore changing it to "index2". After that, I saved and exited the file.
+To edit the file, I opened **ListExamples.java** on vim. Then, to search for the error, I searched for the phrase "index1" and cycled through 4 of the found instances until I landed on the error. From there, I moved to the right 5 times and replaced the "1" to a "2", therefore changing it to "index2". After that, I saved and exited the file.
 
 ___
 
 ## Step 8
 
-IMAGE
+![Image](lab-report-4-imgs/step8.jpg)
 
 Keys pressed: `<up> <up> <up> <enter>`, `<up> <up> <up> <enter>`
 
@@ -52,4 +56,8 @@ ___
   
 ## Step 9
 
+![Image](lab-report-4-imgs/step9.jpg)
 
+Keys pressed: `git add ListExamples.java <enter>`, `git commit -m "Update ListExamples.java" <enter>`, `git push <enter>`
+
+I first added the updated file to the stage using `git add`, and then created the commit message using `git commit`. Lastly, I used `git push` to push the committed change to the repository.
