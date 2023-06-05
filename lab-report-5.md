@@ -69,12 +69,14 @@ test.sh:
 
 Command to trigger the bug:
 
-`bash test.sh`
+`$ bash test.sh`
 
 Description of fix:
 
-The variable `intArr` should be assigned to `newArray`, so that the instance variable is updated accordingly. Before the return statement, `intArr = newArray` should be added, and then `intArr` should be returned to ensure everything worked properly.
+The variable `intArr` should be assigned to `newArray`, so that the instance variable is updated accordingly. Before the return statement, `intArr = newArray;` should be added, and then `intArr` should be returned to ensure everything worked properly.
+
+___
 
 ## Part 2 - Reflection
 
-In the second half of this quarter, being able to get hands-on experience working with bash scripts has really helped me understand how versatile and useful they really are. I knew that programs could be scripted, but I did not know that the actual scripting can contain its own code. For example, trying to make a grading script was really fun as I tried to automate a process that would have taken me multiple terminal lines. 
+In the second half of this quarter, being able to get hands-on experience working with bash scripts has really helped me understand how versatile and useful they really are. I knew that programs could be scripted, but I did not know that the actual scripting can contain its own code. For example, trying to make a grading script was really fun as I tried to automate a process that would have taken me multiple terminal lines. Although the syntax feels strange, I want to find more ways to use bash scripts and different commands that would allow me to automate more tasks.
