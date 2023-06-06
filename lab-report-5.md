@@ -33,7 +33,7 @@ ___
 
 ### 2.
 
-It seems like your `reversed()` method returns an array. Try checking with a JUnit test to see if that returned array is properly reversed.
+It seems like your `reversed()` method returns an array. Try checking if `reversed()` returns `new int[]{6, 5, 4}` instead of just the instance variable.
 
 ___
 
